@@ -57,6 +57,7 @@ import nodeAres from './nodes/ares.svg';
 import nodeAresGladios from './nodes/ares-gladios.svg';
 import nodeAresMars from './nodes/ares-mars.png';
 import nodeAstar from './nodes/astar.png';
+import nodeAtocha from './nodes/atocha.png';
 import nodeAutomata from './nodes/automata.png';
 import nodeBasilisk from './nodes/basilisk.png';
 import nodeBeast from './nodes/beast.svg';
@@ -180,6 +181,7 @@ export const chainLogos = Object.entries({
   'Ares PC1': nodeAres,
   Astar: chainAstar,
   Automata: nodeAutomata,
+  'Atocha Testnet': nodeAtocha,
   'Automata ContextFree': nodeAutomata,
   'Beast Developer': nodeBeast,
   Bifrost: nodeBifrost,
@@ -339,6 +341,7 @@ export const nodeLogos = Object.entries({
   Astar: nodeAstar,
   'Automata ContextFree Node': nodeAutomata,
   'Automata Node': nodeAutomata,
+  'Atocha Testnet': nodeAtocha,
   Basilisk: nodeBasilisk,
   'Beast Node': nodeBeast,
   Bifrost: nodeBifrost,
@@ -516,6 +519,7 @@ export const namedLogos: Record<string, unknown> = {
   'Ares Gladios': nodeAresGladios,
   astar: chainAstar,
   automata: nodeAutomata,
+  'Atocha Testnet': nodeAtocha,
   'automata-contextfree': nodeAutomata,
   basilisk: nodeBasilisk,
   beast: nodeBeast,

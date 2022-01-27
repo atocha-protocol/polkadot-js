@@ -21,6 +21,7 @@ const chainApron = 'linear-gradient(45deg, #0099F7 0%, #2E49EB 100%)';
 const chainAstar = '#1b6dc1d9';
 const chainAutomata = '#EC7032';
 const chainAutomataContextFree = '#EC7032';
+const chainAtocha = '#8ECAE6';
 const chainBitCountry = '#191a2e';
 const chainBitCountryPioneer = '#000000';
 const chainBeastEave = '#900048';
@@ -212,6 +213,7 @@ export const chainColors: Record<string, string> = Object.entries({
   'Ares Gladios': chainAresGladios,
   'Ares Odyssey': nodeOdyssey,
   'Ares PC1': chainRoccoAres,
+  'Atocha Testnet': chainAtocha,
   Astar: chainAstar,
   Automata: chainAutomata,
   'Automata ContextFree': chainAutomataContextFree,
